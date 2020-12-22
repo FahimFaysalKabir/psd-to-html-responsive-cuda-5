@@ -1,0 +1,818 @@
+@font-face {
+src: url(fonts/TitilliumWeb-Regular.ttf);
+font-family:regular;
+}
+@font-face {
+src: url(fonts/TitilliumWeb-Bold.ttf);
+font-family:bold;
+}
+@font-face {
+src: url(fonts/TitilliumWeb-SemiBold.ttf);
+font-family:semi;
+}
+@font-face {
+src: url(fonts/TitilliumWeb-Light.ttf);
+font-family:light;
+}
+@font-face {
+src: url(fonts/TitilliumWeb-Italic.ttf);
+font-family:italic;
+}
+html{
+  scroll-behavior:smooth;
+  font-size:62.5%;
+}
+:focus{
+  outline:0;
+}
+.mid{
+  width:80%;
+  margin: auto;
+  max-width:120rem;
+}
+.header{
+  height:55rem;
+  background-image: url(images/ban2.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+.header::after{
+  content:'';
+  display:block;
+  clear: both;
+}
+.logo{
+  width:10%;
+  float: left;
+  margin-top:4.2rem;
+}
+.header .menu{
+  width:80%;
+  float: right;
+
+}
+.header .menu ul{
+  margin-left:20.4rem;
+  margin-top:5.6rem;
+}
+
+
+.header .menu ul li{
+  display: inline-block;
+}
+.header .menu ul li a{
+  font-family:regular;
+  padding:0.5rem 1.5rem;
+  color:#fff;
+  font-size:1.6rem;
+
+}
+.header .menu ul li a:hover{
+  background-color:#643a79;
+  border-radius:0.5rem;
+}
+/* mobile menu starts here */
+.mobile-menu span{
+  color: #fff;
+  font-size:4rem;
+  float:right;
+  margin-top:2rem;
+  display:none;
+}
+.sticky .mobile-menu span{
+  margin-top:0px;
+}
+.mobile-menu span:hover{
+  cursor:pointer;
+}
+.overlay{
+  width:0;
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color:rgba(0,0,0,0.9);
+  z-index:1;
+  overflow-x:hidden;
+  transition:.5s;
+}
+.overlay-content{
+  position: relative;
+  top:20%;
+  width:100%;
+
+}
+.overlay .overlay-content a{
+  text-decoration: none;
+  display: block;
+  font-size:3rem;
+  text-transform: uppercase;
+  font-size:20px;
+  letter-spacing:3px;
+  text-align:center;
+
+  color: #999;
+  padding:1rem 0;
+}
+.overlay .overlay-content a:hover{
+  color:#fff;
+}
+.closebtn{
+  position:absolute;
+  top:2rem;
+  right:4.5rem;
+  font-size:5rem;
+  color:#fff;
+}
+/* mobile menu ends here */
+.bbb1{
+  width:100%;
+  height:100%;
+  background:rgba(134, 80, 156,0.9);
+}
+.header .text{
+  width:100%;
+  margin: auto;
+  overflow: hidden;
+
+
+}
+.header .text h1{
+  font-family:bold;
+  font-size:3.4rem;
+  color:#fff;
+  text-align:center;
+
+  margin-top:15%;
+
+}
+.header .text a{
+  padding:2.0rem 5.0rem;
+  background-color:#eb7d4c;
+  text-align: center;
+  font-family:semi;
+  display: block;
+  width:17%;
+  margin:auto;
+  border-radius:0.5rem;
+  color:#fff;
+  font-size:1.6rem;
+
+}
+.header h1 span{
+  display: block;
+}
+.sticky{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  padding:2.0rem 0rem;
+  background:rgba(134, 80, 156,0.9);
+  overflow:hidden;
+  z-index:999;
+
+}
+.sticky .margin{
+  width:80%;
+  margin: auto;
+}
+.sticky .logo{
+  margin-top:0rem;
+}
+.sticky .menu ul{
+  margin-top:1.0rem;
+}
+/* header section ends here */
+/* service section starts here */
+.service{
+  height:65.0rem;
+  background-image: url(images/ban2.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  overflow:hidden;
+}
+.service::after{
+  content:'';
+  display:block;
+  clear: both;
+}
+.bbb2{
+  width:100%;
+  height:100%;
+  background:rgba(24,194,165,0.9);
+  overflow:hidden;
+
+}
+.service h2{
+
+  font-family:bold;
+  font-size:3.6rem;
+  color:#fff;
+  text-align: center;
+  margin-top:7.0rem;
+  letter-spacing:0.3rem;
+}
+.service .line{
+  width:10%;
+  margin: auto;
+
+}
+.service .line hr{
+  margin-top:1.2rem;
+  border-top:none;
+  border-bottom:0.5rem solid #14a289;
+
+}
+.service p{
+  font-family:regular;
+  text-align: center;
+  color: #fff;
+  font-size:1.7rem;
+  margin-top:2.0rem;
+}
+.service p span{
+  display: block;
+}
+.service .box{
+  width:25%;
+
+  float: left;
+  margin-top:6.0rem;
+}
+.service .box h3{
+  font-family:bold;
+  color:#fff;
+  text-transform: uppercase;
+  margin-top:8.0rem;
+  text-align: center;
+  font-size:1.6rem;
+}
+.service .box img{
+  width:10.0rem;
+  height:9.5rem;
+  margin:auto;
+  display: block;
+}
+.service .box p{
+  width:80%;
+  font-size:1.4rem;
+  text-align: center;
+  margin: auto;
+  margin-top:1.0rem;
+  line-height:2.0rem;
+  font-size:1.6rem;
+}
+.service .box .img1{
+  width:11.0rem;
+  height:10.9rem;
+}
+.service .box .img2{
+  width:8.1rem;
+  height:10.9rem;
+}
+.service .box .img3{
+  width:13.0rem;
+  height:10.9rem;
+}
+.service .box .img4{
+  width:8.9rem;
+  height:10.9rem;
+}
+
+/* service section ends here */
+/* team section starts here */
+.team{
+  height:70.0rem;
+  background-image: url(images/ban2.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: center center;
+  overflow:hidden;
+}
+.bbb3{
+  width:100%;
+  height:100%;
+  background:rgba(231,242,248,0.9);
+  overflow:hidden;
+}
+.team h2{
+
+  font-family:bold;
+  font-size:3.6rem;
+  color:#3f4a64;
+  text-align: center;
+  margin-top:7.0rem;
+  letter-spacing:0.3rem;
+}
+.team .line{
+  width:10%;
+  margin: auto;
+
+}
+.team .line hr{
+  margin-top:1.2rem;
+  border-top:none;
+  border-bottom:0.5rem solid #c5d5e3;
+
+}
+.team p{
+  font-family:regular;
+  text-align: center;
+  color: #596175;
+  font-size:1.7rem;
+  margin-top:2.0rem;
+}
+.team-box {
+  width:22%;
+  display: inline-block;
+  margin-top:4.0rem;
+  margin-right:2.5rem;
+}
+.team-box .image{
+  width:18.0rem;
+  height:18.0rem;
+  background-color:#878787;
+  border-radius:50%;
+  margin: auto;
+}
+.team-box h3{
+  font-family:bold;
+  color: #27283d;
+  text-align: center;
+  margin-top:2.0rem;
+  font-weight:normal;
+  text-transform: uppercase;
+  font-size:2.0rem;
+}
+.team-box h4{
+  font-family:regular;
+  color: #30bae7;
+  text-align: center;
+  margin-top:1.0rem;
+  font-weight:normal;
+  font-size:1.6rem;
+}
+.team-box p{
+ font-family:light;
+ color:#3c4761;
+ text-align: center;
+ margin: auto;
+ margin-top:2.0rem;
+ margin-bottom:2.0rem;
+ font-size:1.6rem;
+}
+.team-box ul{
+  text-align: center;
+  margin-top:1.0rem;
+}
+.team-box ul li{
+  display: inline-block;
+}
+.team-box ul li a{
+  width:1.5rem;
+  height:1.5rem;
+  display: block;
+  color:#fff;
+  text-align: center;
+  background-color:#bdd1df;
+  border-radius:50%;
+  padding:0.8rem;
+  font-size:1.3rem;
+  transition:0.5s;
+}
+.team-box ul li a:hover{
+    background-color:#393939;
+    transform:rotate(360deg);
+}
+/* team section ends here */
+/* skills section starts here */
+.skills{
+  height:60.0rem;
+  background-image: url(images/ban2.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  overflow:hidden;
+}
+.bbb4{
+  width:100%;
+  height:100%;
+  background:rgba(255,255,255,0.9);
+  overflow:hidden;
+}
+.skills h2{
+
+  font-family:bold;
+  font-size:3.6rem;
+  color:#3c4761;
+  text-align: center;
+  margin-top:7.0rem;
+  letter-spacing:0.3rem;
+}
+.skills .line{
+  width:10%;
+  margin: auto;
+
+}
+.skills .line hr{
+  margin-top:1.2rem;
+  border-top:none;
+  border-bottom:0.5rem solid #dfe8ed;
+
+}
+.skills p{
+  font-family:regular;
+  text-align: center;
+  color: #3c4761;
+  font-size:1.7rem;
+  margin-top:2.0rem;
+}
+.skills p span{
+  display: block;
+}
+.skills .skill-margin{
+  width:100%;
+  margin: auto;
+}
+.skills .skill-box{
+  text-align:center;
+  width:24%;
+  display: inline-block;
+  margin-top:5.0rem;
+}
+
+.skills .skill-box h3{
+  font-family:bold;
+  color:#3c4761;
+  text-transform: uppercase;
+  font-weight:normal;
+  text-align: center;
+  margin-top:1.0rem;
+
+  font-size:1.6rem;
+
+}
+svg.radial-progress.web-design circle { stroke:#30bae7; }
+svg.radial-progress.web-design text {
+  fill: #000;
+  font-family:light;
+}
+svg.radial-progress.html-css circle { stroke:#d74680; }
+svg.radial-progress.html-css text {
+  fill: #000;
+  font-family:light;
+}
+svg.radial-progress.graphic-design circle { stroke:#15c7a8; }
+svg.radial-progress.graphic-design text {
+  fill: #000;
+  font-family:light;
+}
+svg.radial-progress.ui-ux circle { stroke:#eb7d4b; }
+svg.radial-progress.ui-ux text {
+  fill: #000;
+  font-family:light;
+}
+
+
+/* skills section ends here */
+/* portfolio section starts here */
+.portfolio{
+  height:130.0rem;
+  background-image: url(images/ban2.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  overflow:hidden;
+}
+.bbb5{
+  width:100%;
+  height:100%;
+  background:rgba(255,220,152,0.9);
+  overflow:hidden;
+}
+.portfolio h2{
+
+  font-family:bold;
+  font-size:3.6rem;
+  color:#393939;
+  text-align: center;
+  margin-top:7.0rem;
+  letter-spacing:0.3rem;
+}
+.portfolio h3{
+ font-size:1.6rem;
+}
+.portfolio .line{
+  width:10%;
+  margin: auto;
+
+}
+.portfolio .line hr{
+  margin-top:1.2rem;
+  border-top:none;
+  border-bottom:0.5rem solid #e6c37f;
+
+}
+.portfolio p{
+  font-family:regular;
+  text-align: center;
+  color: #393939;
+  font-size:1.7rem;
+  margin-top:2.0rem;
+}
+.portfolio p span{
+  display: block;
+}
+.button-mix{
+  text-align: center;
+  margin-top:2.0rem;
+}
+.button-mix .mixitup-control-active{
+  background-color: #fff;
+}
+.button-mix button{
+  font-family:regular;
+  text-transform: uppercase;
+  padding:0.8rem 1.5rem;
+  margin-right:0.5rem;
+  background-color:#ebc884;
+  border:0.1rem solid transparent;
+  border-radius:0.5rem;
+  font-size:1.6rem;
+}
+.button-mix button:hover{
+  background-color: #fff;
+  cursor: pointer;
+
+}
+.portfolio-box{
+  width:45%;
+  display: inline-block;
+  margin-top:6.0rem;
+  margin-bottom:4.0rem;
+  margin-right:4.0rem;
+}
+.portfolio-box img{
+  width:100%;
+  height:90%;
+}
+.portfolio-box h3{
+  font-family:regular;
+  text-align: center;
+  font-weight:normal;
+  text-transform: uppercase;
+  color:#393939;
+  margin-top:2.0rem;
+}
+.portfolio  .button{
+  padding:2.5rem 5.0rem;
+  background-color:#18c2a5;
+  text-align: center;
+  margin: auto;
+  display: block;
+  width:18%;
+  font-family:semi;
+  border-radius:0.5rem;
+  color:#fff;
+  margin-top:3.0rem;
+  font-size:1.6rem;
+}
+
+/* portfolio section ends here */
+/* people section starts here */
+.people{
+  height:70.0rem;
+  background-image: url(images/ban2.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  overflow:hidden;
+}
+.bbb6{
+  width:100%;
+  height:100%;
+  background:rgba(215,70,129,0.9);
+  overflow:hidden;
+}
+.people h2{
+
+  font-family:bold;
+  font-size:3.6rem;
+  color:#fff;
+  text-align: center;
+  margin-top:7.0rem;
+  letter-spacing:0.3rem;
+}
+.people .line{
+  width:10%;
+  margin: auto;
+
+}
+.people .line hr{
+  margin-top:1.2rem;
+  border-top:none;
+  border-bottom:0.5rem solid #b73c6d;
+
+}
+.people p{
+  font-family:regular;
+  text-align: center;
+  color: #fff;
+  font-size:1.7rem;
+  margin-top:2.0rem;
+}
+.people-box{
+  width:50%;
+
+  margin-top:5rem;
+  float: left;
+}
+.people-box .image{
+  width:25%;
+  float: left;
+}
+.people-box .image img{
+  width:10rem;
+  height:10rem;
+  border-radius:50%;
+
+}
+.people-box .text{
+ width:60%;
+ float: left;
+}
+.people-box .text p{
+  font-family:italic;
+  color:#fff;
+  font-size:2.0rem;
+  text-align: left;
+}
+.people-box .text h4{
+  font-family:bold;
+  color:#fff;
+  font-size:2.0rem;
+  text-transform: uppercase;
+  font-weight:normal;
+  text-align: left;
+  margin-top:2.0rem;
+}
+.people-box .text h5{
+  font-family:regular;
+  color: #ffdd99;
+  font-size:1.8rem;
+  font-weight:normal;
+  text-align: left;
+}
+/* people section ends here */
+/* contact section starts here */
+.contact{
+  height:65.0rem;
+  background-image: url(images/ban2.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  overflow:hidden;
+}
+.contact .input{
+ width:60%;
+ margin: auto;
+ margin-top:3.0rem;
+
+}
+.contact .input .input1{
+  width:50%;
+  float: left;
+
+
+}
+.contact .input .input2{
+  width:50%;
+  float: left;
+
+
+
+}
+.contact .input .input1 [type=text]{
+  width:33.0rem;
+  height:5.0rem;
+  margin-left:-1.0rem;
+  background-color:#273a72;
+  border:0.1rem solid transparent;
+
+}
+.contact .input .input2 [type=text]{
+  width:33.0rem;
+  height:5.0rem;
+  margin-left:3.0rem;
+  background-color:#273a72;
+  border:0.1rem solid transparent;
+
+}
+.contact .input .input3 [type=textarea]{
+  width:105%;
+  height:17.0rem;
+  margin-top:5.0rem;
+  margin-left:0rem;
+  background-color:#273a72;
+  border:0.1rem solid transparent;
+
+}
+
+
+.bbb7{
+  width:100%;
+  height:100%;
+  background:rgba(60,84,154,0.9);
+  overflow:hidden;
+}
+.contact h2{
+
+  font-family:bold;
+  font-size:3.6rem;
+  color:#fff;
+  text-align: center;
+  margin-top:7.0rem;
+  letter-spacing:0.3rem;
+}
+.contact .line{
+  width:10%;
+  margin: auto;
+
+}
+.contact .line hr{
+  margin-top:1.2rem;
+  border-top:none;
+  border-bottom:0.5rem solid #24376e;
+
+}
+.contact p{
+  font-family:regular;
+  text-align: center;
+  color: #fff;
+  font-size:1.7rem;
+  margin-top:2.0rem;
+}
+
+.contact input[type="text"]::placeholder,
+input[type="textarea"]::placeholder{
+  font-family:regular;
+  color:#ffffff;
+  text-align:center;
+  font-size:1.6rem ;
+}
+
+
+.contact a{
+  padding:2.5rem 5.0rem;
+  background-color:#30bae8;
+  text-align: center;
+  margin: auto;
+  display: block;
+  width:18%;
+  font-family:semi;
+  border-radius:0.5rem;
+  color:#fff;
+  margin-top:3.0rem;
+  font-size:1.6rem;
+}
+/* contact section ends here */
+/* footer section starts here */
+.footer{
+  height:10.0rem;
+  background-color: #344b8e;
+  overflow: hidden;
+}
+.footer ul li{
+  display: inline-block;
+}
+.footer ul{
+  text-align: center;
+  margin-top:3.5rem;
+}
+.footer ul li a{
+  font-family:semi;
+  color:#fff;
+  font-size:2.2rem;
+  padding:0.5rem 2.0rem;
+}
+.footer ul li a:hover{
+  color:#30bae7;
+}
+.footer  .social-icon {
+  display: none;
+}
+/* footer section ends here */

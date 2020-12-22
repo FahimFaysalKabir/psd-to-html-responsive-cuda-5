@@ -1,0 +1,469 @@
+
+@media only screen and (max-width:1348px){
+  .header .menu ul {
+    margin-left: 16.5rem;
+
+}
+}
+@media only screen and (max-width:1287px){
+  .header .menu ul {
+      margin-left: 12.6rem;
+  }
+}
+
+
+@media only screen and (max-width:1226px){
+  .header .menu ul {
+      margin-left: 10rem;
+  }
+  .contact .input .input1 [type=text]{
+    width:30rem;
+  }
+  .contact .input .input2 [type=text]{
+    width:30rem;
+
+
+  }
+}
+
+@media only screen and (max-width:1172px){
+  .header .menu ul {
+    margin-left: 6.5rem;
+
+}
+}
+
+
+@media only screen and (max-width:1120px){
+  .service{
+  height:96rem;
+
+  }
+  .service .box{
+    width:50%;
+
+    float: left;
+    margin-top:6.0rem;
+  }
+  .team{
+    height:114rem;
+
+  }
+  .team-box {
+    width:45%;
+
+  }
+  .skills .skill-box{
+
+    width:47%;
+  }
+  .skills{
+    height:87rem;
+
+  }
+}
+
+@media only screen and (max-width:1117px){
+  .header .menu ul {
+    margin-left: 2.7rem;
+
+}
+.portfolio .button {
+  width: 20%;
+
+}
+.contact .input .input1 [type=text]{
+  width:25rem;
+}
+.contact .input .input2 [type=text]{
+  width:25rem;
+
+
+}
+.contact .input .input1{
+  text-align:right;
+}
+}
+
+@media only screen and (max-width:1059px){
+  .header .menu ul {
+    display: none;
+}
+.mobile-menu span{
+  display: block;
+}
+html{
+
+  font-size:57.5%;
+}
+}
+@media only screen and (max-width:959px){
+  .portfolio{
+    height:180.0rem;
+  }
+  .portfolio-box{
+    width: 50%;
+    margin:auto;
+    margin-top: 6.0rem;
+    margin-bottom: 4.0rem;
+    display: block;
+  }
+  .team{
+    height:195rem;}
+
+  .team-box {
+    width:50%;
+    margin: auto;
+    display: block;
+    margin-top: 4.0rem;
+    }
+    .service .box {
+    width: 51%;
+    margin:auto;
+    margin-top: 6.0rem;
+    display: block;
+    float: none;}
+
+    .service{
+      height:160rem;}
+
+    .skills .skill-box {
+    text-align: center;
+    width:50%;
+    display: inline-block;
+
+    display: block;
+    margin: auto;
+    margin-top: 5.0rem;
+}
+.skills{
+  height:155rem;
+
+}
+.people-box {
+    width: 51%;
+    margin: auto;
+    height:22rem;
+    float:none;
+    display: block;
+
+}
+.people {
+    height:111rem;}
+
+.footer ul li a {
+    font-family: semi;
+    color: #fff;
+    font-size: 2.0rem;
+    padding: 0.5rem 1rem;}
+
+  }
+
+  @media only screen and (max-width:928px){
+  .people-box .text{
+    margin-left: 17px;
+  }
+  }
+  @media only screen and (max-width:898px){
+    .portfolio .button {
+        width: 24%;
+    }
+  }
+
+  @media only screen and (max-width:838px){
+    .contact .input .input1 {
+    width: 100%;
+    float: none;
+}
+.contact .input .input2 {
+    width: 100%;
+    float: none;
+}
+.contact .input .input1 [type="text"] {
+    width: 100%;
+}
+.contact .input .input2 [type="text"] {
+    width: 100%;
+    float: none;
+}
+.contact .input .input2 [type="text"] {
+
+  margin-left: 1rem;
+  margin-top: 22px;
+
+}
+.contact .input .input1 [type="text"] {
+
+    margin-left: 1rem;
+
+}
+.contact .input .input3 [type="textarea"] {
+
+    margin-top: 3rem;
+
+}
+.portfolio .button {
+    width: 28%;
+}
+.people-box .text {
+margin-left: 38px;
+}
+  }
+  @media only screen and (max-width:762px){
+    .header .text a {
+
+      width: 21%;
+
+  }
+}
+@media only screen and (max-width:742px){
+  .footer ul li a {
+
+    font-size: 1.8rem;
+    padding: 0.5rem 0.8rem;
+  }
+  .contact {
+    height: 70rem;
+
+}
+}
+@media only screen and (max-width:702px){
+  .contact a {
+
+      width: 24%;
+
+  }
+  .people-box .image {
+    width: 25%;
+    float: none;
+    margin: auto;
+}
+.people-box .text {
+
+    margin: auto;
+    width: 100%;
+}
+.people-box .text p {
+
+    text-align: center;
+}
+.people-box .text h4 {
+
+    text-align: center;
+
+}
+.people-box .text h5 {
+
+    text-align: center;
+}
+.people-box .image {
+
+    margin-top: 9.6rem;
+}
+.people {
+    height: 154rem;
+}
+.portfolio {
+    height: 156rem;
+}
+}
+@media only screen and (max-width:653px){
+  .footer ul li a {
+      font-size: 1.5rem;
+      padding: 0.5rem 0.8rem;
+  }
+
+  .team {
+    height: 212rem;
+}
+
+  }
+
+  @media only screen and (max-width:642px){
+    .portfolio .button {
+      width: 35%;
+  }
+
+    }
+
+    @media only screen and (max-width:628px){
+      .people {
+        height: 168rem;
+    }
+
+      }
+
+
+  @media only screen and (max-width:618px){
+    .header .text a {
+        width: 27%;
+    }
+
+    }
+
+    @media only screen and (max-width:618px){
+      .skills {
+      height: 139rem;
+  }
+
+      }
+@media only screen and (max-width:569px){
+  .footer .social-link {
+    display: none;
+  }
+   .footer .social-icon{
+     display: inline;
+     text-align:center;
+   }
+
+}
+@media only screen and (max-width:565px){
+  .people-box .image {
+    width: 39%;
+
+}
+
+}
+@media only screen and (max-width:530px){
+  .service {
+      height: 172rem;
+  }
+
+}
+@media only screen and (max-width:514px){
+  .portfolio .button {
+      width: 40%;
+  }
+
+}
+@media only screen and (max-width:527px){
+  .contact a {
+      width: 39%;
+  }
+
+}
+@media only screen and (max-width:481px){
+  .header .text a {
+      width: 45%;
+  }
+  .skills {
+    height: 129rem;
+}
+.portfolio {
+    height: 139rem;
+}
+.contact .input {
+    width: 96%;
+
+    margin:0rem;
+    margin-top: 3.0rem;
+  }
+
+}
+@media only screen and (max-width:450px){
+  .portfolio .button {
+      width: 56%;
+  }
+
+}
+@media only screen and (max-width:428px){
+  .team {
+      height: 222rem;
+  }
+
+}
+@media only screen and (max-width:426px){
+  .people-box {
+
+      height: 29rem;
+    }
+    .people {
+    height: 189rem;
+}
+@media only screen and (max-width:413px){
+  .skills {
+      height: 119rem;
+  }
+
+}
+@media only screen and (max-width:411px){
+  .service {
+      height: 179rem;
+  }
+
+}
+@media only screen and (max-width:399px){
+  .service {
+      height: 198rem;
+  }
+
+}
+@media only screen and (max-width:365px){
+  .people-box {
+      width: 87%;
+
+  }
+  .team-box {
+    width: 55%;
+
+}
+
+}
+@media only screen and (max-width:334px){
+  .button-mix button {
+
+      padding: 0.8rem 1.1rem;
+
+  }
+
+}
+@media only screen and (max-width:324px){
+  .button-mix button {
+
+      padding: 0.8rem 1.1rem;
+
+  }
+  .contact a {
+    width: 56%;
+}
+.team-box {
+    width: 64%;
+}
+
+}
+@media only screen and (max-width:320px){
+  .portfolio .button {
+      width: 62%;
+  }
+  .portfolio {
+    height: 131rem;
+}
+
+}
+@media only screen and (max-width:304px){
+  .contact {
+      height: 77rem;
+  }
+  .skills {
+    height: 113rem;
+}
+
+}
+@media only screen and (max-width:298px){
+  .button-mix button {
+      padding: 0.8rem 0.8rem;
+  }
+
+}
+@media only screen and (max-width:290px){
+  .portfolio .button {
+    width: 65%;
+}
+.header .text a {
+    width: 51%;
+}
+.team-box {
+    width: 74%;
+}
+
+}
